@@ -65,6 +65,13 @@ namespace DiscordBot
 
                 });
 
+            commands.CreateCommand("Pizza")
+                .Do(async (e) =>
+                {
+                    await e.Channel.SendMessage("Fuck You");
+
+                });
+
             commands.CreateCommand("FuckYou")
                 .Do(async (e) =>
                 {
