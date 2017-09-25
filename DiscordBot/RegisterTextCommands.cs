@@ -57,7 +57,7 @@ namespace DiscordBot
                 {
                     string user = e.User.NicknameMention;
                     if(e.User.ServerPermissions.Administrator)
-                        await e.Channel.SendMessage("yousabitch! " + user);
+                        await e.Channel.SendMessage("yous a real bitch! " + user);
 
                     //Console.WriteLine(e.User.CurrentGame.Value.Name);
 

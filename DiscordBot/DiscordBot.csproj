@@ -23,8 +23,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://github.com/vurtua7/Repo-Test.git/</UpdateUrl>
-    <ApplicationRevision>3</ApplicationRevision>
+    <UpdateUrl>https://github.com/vurtua7/Repo-Test/</UpdateUrl>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
