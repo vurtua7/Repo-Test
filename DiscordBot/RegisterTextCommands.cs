@@ -56,7 +56,10 @@ namespace DiscordBot
                 .Do(async (e) =>
                 {
                     string user = e.User.NicknameMention;
-                    Console.WriteLine(e.User.CurrentGame.Value.Name);
+                    if(e.User.ServerPermissions.Administrator)
+                        await e.Channel.SendMessage("yousabitch! " + user);
+
+                    //Console.WriteLine(e.User.CurrentGame.Value.Name);
 
                     await e.Channel.SendMessage("Hi! " + user);
 
