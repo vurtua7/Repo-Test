@@ -141,6 +141,7 @@ namespace DiscordBot
 
         }
 
+
         private void registerAudioCommands()
         {
             //var voiceChannel = discord.FindServers("Lobby Boy").FirstOrDefault().VoiceChannels.FirstOrDefault();
